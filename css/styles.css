@@ -244,8 +244,14 @@ section {
   color: var(--white-color);
 }
 
-/* ========== SECTIONs ========== */
-/* Section 1 (h3 = header під "body") */
+/**
+  |============================
+  | SECTIONs
+  |============================
+*/
+
+/* ========== Section-1 "Feature" ========== */
+/*  (h3 = header під "body") */
 
 .section-delta {
   padding-top: 120px;
@@ -259,6 +265,17 @@ section {
 .scroll-box {
   flex-basis: calc((100%-72px) / 4);
   /* gap: 24px; */
+}
+
+.feature-icon-box {
+  display: flex;
+  height: 112px;
+  /* width: 264px; */
+  justify-content: center;
+  align-items: center;
+  background: var(--light-font);
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 /* Section 2,(3) (h2) */
