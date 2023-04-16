@@ -17,7 +17,12 @@
   --hover-btn: #404bbf;
 }
 
-/* ========== RESET indents ==========  */
+/**
+  |============================
+  | RESET indents
+  |============================
+*/
+
 p,
 h1,
 h2,
@@ -32,7 +37,11 @@ ul {
   padding: 0;
 }
 
-/* ========== BODY =========== */
+/**
+  |============================
+  | Base styles
+  |============================
+*/
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -71,7 +80,12 @@ img {
   color: var(--main-fonts);
 }
 
-/* ========== RESET ==========  */
+/**
+  |============================
+  | RESET
+  |============================
+*/
+
 /* Видалення підкреслення link-ів */
 .link {
   text-decoration: none;
@@ -110,7 +124,12 @@ address {
   margin-left: auto;
 }
 
-/* ========== HEADER ========== */
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
 .header-box {
   background-color: white;
   border-bottom-style: solid;
@@ -190,13 +209,28 @@ address {
   color: var(--address-color);
 }
 
-/* ========== MAIN ========== */
-/* Hero section */
+/**
+  |============================
+  | Hero section
+  |============================
+*/
 
 .hero-bloc {
-  background-color: var(--hero-color);
+  /* background-color: var(--hero-color); */
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(46, 47, 66, 0.7);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .title {
@@ -278,7 +312,8 @@ section {
   margin-bottom: 8px;
 }
 
-/* Section 2,(3) (h2) */
+/* ========== Section 2,(3) (h2) ========== */
+
 .header-two {
   font-weight: 700;
   font-size: 36px;
@@ -300,7 +335,8 @@ section {
   flex-basis: calc((100% - 48px) / 3);
 }
 
-/* Section 3 */
+/* ========== Section 3 ========== */
+
 .sec-three {
   /* Кожне Слово З Великої Літери */
   text-transform: capitalize;
@@ -338,7 +374,12 @@ section {
   border-radius: 0px 0px 4px 4px;
 }
 
-/* ========== FOOTER ========== */
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
+
 .footer-section {
   background: var(--heading-color);
   padding-top: 100px;
@@ -363,7 +404,11 @@ section {
   max-width: 264px;
 }
 
-/* ========== PAGE2 - PORTFOLIO ========== */
+/**
+  |============================
+  | PAGE2 - PORTFOLIO
+  |============================
+*/
 
 .container-portfolio {
   padding: 96px 0 120px;
