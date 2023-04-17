@@ -354,7 +354,7 @@ section {
   display: flex;
 }
 
-/* ========== SECTION-3 ========== */
+/* ========== SECTION-3 "Our Team" ========== */
 
 .section-3 {
   /* Кожне Слово З Великої Літери */
@@ -397,9 +397,11 @@ section {
   border-radius: 0px 0px 4px 4px;
 }
 
-/* ========== SECTION-4 "Customers" (currentColor)
-  width: flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items)); 
-    gap: var(--indent); ========== */
+/* ========== SECTION-4 "Customers" ========== */
+
+/* (currentColor)
+  width: / flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items)); 
+    gap: var(--indent); */
 
 .clients-list {
   display: flex;
@@ -409,8 +411,7 @@ section {
 }
 
 .clients-item {
-  /* width: 168px;
-  height: 88px; */
+  /* width: 168px; */
   /* display: flex; - не треба! */
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
   height: 88px;
