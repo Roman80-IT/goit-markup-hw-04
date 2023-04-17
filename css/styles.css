@@ -52,7 +52,7 @@ body {
 .container {
   width: 100%;
   /* ЕКСПЕРИМЕНТ =======================================================*/
-  max-width: 2158px;
+  max-width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding: 0px 15px;
@@ -336,11 +336,15 @@ section {
   /* ЕКСПЕРИМЕНТ =======================================================*/
   /* justify-content: center; */
   /* justify-content: space-between; */
-  justify-content: space-around;
 }
 
 .work-list-item {
   flex-basis: calc((100% - 48px) / 3);
+}
+
+/* ЕКСПЕРИМЕНТ =======================================================*/
+.experiment {
+  display: flex;
 }
 
 /* ========== SECTION-3 ========== */
@@ -360,13 +364,13 @@ section {
 }
 
 .team-items {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   flex-basis: calc((100% - 72px) / 4);
   /* ЕКСПЕРИМЕНТ =======================================================*/
   /* маржинами картинку не вирівняти - потрібно на його "div" впливати
   margin-left: auto;
   margin-right: auto; */
-  border: #e7e9fc;
+  border: var(--portfolio-bgc);
   /* border-width:  1px;
   border-style: solid; */
   /* Тінь навколо ракмок: */
@@ -384,6 +388,18 @@ section {
   padding: 32px 16px;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
+}
+
+/* ========== SECTION-4 ========== */
+
+.companies {
+}
+
+.companies-item {
+}
+.companies-link {
+}
+.companies-icon {
 }
 
 /**
