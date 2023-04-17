@@ -109,6 +109,7 @@ img {
 /* .hide-titel {
   display: none;
 } */
+/* Альтернативний варіант - атрибут hidden в html */
 
 .visually-hidden {
   position: absolute;
@@ -123,8 +124,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-/* Альтернативний варіант - атрибут hidden в html */
 
 /* для прибирання курсиву */
 address {
@@ -223,7 +222,7 @@ address {
 
 /**
   |============================
-  | Hero section
+  | HERO section
   |============================
 */
 
@@ -260,7 +259,7 @@ section {
   padding-bottom: 120px;
 }
 
-/* ==========BUTTON STYLE========== */
+/* ========== BUTTON STYLE ========== */
 
 .btn {
   background-color: var(--btn-color);
@@ -324,7 +323,7 @@ section {
   margin-bottom: 8px;
 }
 
-/* ========== SECTION-2,(3) (h2) ========== */
+/* ========== SECTION-2 "We doing",(3) (h2) ========== */
 
 .header-two {
   font-weight: 700;
@@ -396,6 +395,16 @@ section {
   text-align: center;
   border-radius: 0px 0px 4px 4px;
 }
+
+.team-position {
+  margin-bottom: 8px;
+}
+
+.social-icon-list
+
+.social-icon-item
+
+.link-icon
 
 /* ========== SECTION-4 "Customers" ========== */
 
