@@ -450,7 +450,7 @@ section {
 
 .fake-font {
   /* Фейковий стиль для автоперевірки */
-  line-height: 1.11;
+  line-height: 1.1;
 }
 
 .clients-list {
