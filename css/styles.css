@@ -51,8 +51,10 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1158px;
-  margin: 0 auto;
+  /* ЕКСПЕРИМЕНТ =======================================================*/
+  max-width: 2158px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0px 15px;
   /*  контур елемента 
   outline: 2px solid red;
@@ -61,6 +63,9 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
+  /* ЕКСПЕРИМЕНТ =======================================================*/
+  margin: auto;
 }
 
 /* для заголовків перезадаємо параметри */
@@ -96,7 +101,7 @@ img {
   list-style: none;
 }
 
-/* Прихований заголовок */
+/* Прихований заголовок ==========================*/
 /* .hide-titel {
   display: none;
 } */
@@ -284,7 +289,7 @@ section {
   |============================
 */
 
-/* ========== Section-1 "Feature" ========== */
+/* ========== SECTION-1 "Feature" ========== */
 /*  (h3 = header під "body") */
 
 .section-delta {
@@ -312,7 +317,7 @@ section {
   margin-bottom: 8px;
 }
 
-/* ========== Section 2,(3) (h2) ========== */
+/* ========== SECTION-2,(3) (h2) ========== */
 
 .header-two {
   font-weight: 700;
@@ -328,16 +333,19 @@ section {
 .work-list {
   display: flex;
   gap: 24px;
-  justify-content: center;
+  /* ЕКСПЕРИМЕНТ =======================================================*/
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  justify-content: space-around;
 }
 
 .work-list-item {
   flex-basis: calc((100% - 48px) / 3);
 }
 
-/* ========== Section 3 ========== */
+/* ========== SECTION-3 ========== */
 
-.sec-three {
+.section-3 {
   /* Кожне Слово З Великої Літери */
   text-transform: capitalize;
   background-color: var(--light-font);
@@ -347,13 +355,17 @@ section {
   list-style-type: none;
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* padding-left: 0px; */
 }
 
 .team-items {
   background-color: #ffffff;
   flex-basis: calc((100% - 72px) / 4);
+  /* ЕКСПЕРИМЕНТ =======================================================*/
+  /* маржинами картинку не вирівняти - потрібно на його "div" впливати
+  margin-left: auto;
+  margin-right: auto; */
   border: #e7e9fc;
   /* border-width:  1px;
   border-style: solid; */
