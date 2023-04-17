@@ -17,6 +17,8 @@
   --hover-btn: #404bbf;
   /* LIGHT SLATE */
   --icons-color: #8e8f99;
+  /* GREEN */
+  --green-color: #31d0aa;
   /* Others */
   --indent: 24px;
 }
@@ -554,10 +556,12 @@ section {
   justify-content: center;
   background-size: cover;
 }
+
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: var(--hover-btn);
+  background-color: var(--green-color);
 }
+
 .footer-section .icon {
   fill: var(--light-font);
 }
