@@ -1,2 +1,2 @@
-# goit-markup-hw-03
- Box Model & Flexbox
+# goit-markup-hw-04
+Decorative Effects & SVG elements
